@@ -21,27 +21,26 @@ an order based on product dimensions and weight.
 - Django
 - SQLite
 - HTML
-
+-CSS
 
 ## Project Structure
 
 box_selection_system/
-├── Box_Selector/
-├── box_selector_app/
-├── AI_USAGE.md
-├── CHAT_TRANSCRIPT.md
-├── db.sqlite3
-├── manage.py
-|__README.md
-├── TEST_CASES.md
-└── TEST_OUTPUT.md
+|__ Box_Selector/
+|__ box_selector_app/
+|__ AI_USAGE.md
+|__ CHAT_TRANSCRIPT.md
+|__ manage.py
+|__ README.md
+|__ TEST_CASES.md
+|__ TEST_OUTPUT.md
 
 ## Setup
 
 ```bash
 python -m venv myenv
 myenv\Scripts\activate
-pip install django
+pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
